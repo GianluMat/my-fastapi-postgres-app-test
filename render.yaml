@@ -5,6 +5,6 @@ services:
     plan: free
     repo: https://github.com/GianluMat/my-fastapi-postgres-app-test.git
     branch: main
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ./app/Dockerfile
     buildCommand: ""
     startCommand: docker-compose up
