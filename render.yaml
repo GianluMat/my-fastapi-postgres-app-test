@@ -1,10 +1,11 @@
 services:
   - type: web
-    name: my-fastapi-app
+    name: MMT_DOCKER,
     env: docker
     plan: free
     repo: https://github.com/GianluMat/my-fastapi-postgres-app-test.git
     branch: main
-    dockerfilePath: ./app/Dockerfile
+    autoDeploy: true
+    dockerComposePath: ./docker-compose.yml
     buildCommand: ""
     startCommand: docker-compose up
