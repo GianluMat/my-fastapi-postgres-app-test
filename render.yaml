@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: my-fastapi-app
+    env: docker
+    plan: free
+    repo: https://github.com/GianluMat/my-fastapi-postgres-app-test.git
+    branch: main
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: docker-compose up
