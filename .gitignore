@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Docker
+*.log
+*.pid
+*.pid.lock
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
